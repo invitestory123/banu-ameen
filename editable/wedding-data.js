@@ -46,7 +46,7 @@ window.WEDDING_DATA = {
     thankYou: "Thank you for being part of our story.",
   },
 
-  music: "./editable/assets/anbil-avan.mp3",
+  music: "./editable/assets/babg.mp3",
 
   images: {
     couple: "./editable/assets/couple.png",
