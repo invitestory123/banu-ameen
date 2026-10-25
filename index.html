@@ -20,5 +20,29 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      (function() {
+        function triggerAudio() {
+          var musicSrc = (window.WEDDING_DATA && window.WEDDING_DATA.music) || './editable/assets/babg.mp3';
+          var audio = window._bgAudio || new Audio(musicSrc);
+          window._bgAudio = audio;
+          audio.loop = true;
+          audio.preload = 'auto';
+          audio.play().then(function() {
+            if (window._setMusicPlaying) window._setMusicPlaying(true);
+          }).catch(function() {});
+        }
+        // Attempt immediate playback on load
+        window.addEventListener('DOMContentLoaded', triggerAudio);
+        window.addEventListener('load', triggerAudio);
+        // Fallback for strict browser policies on first touch/interaction
+        var interactEvents = ['click', 'touchstart', 'pointerdown', 'scroll', 'keydown'];
+        function onInteract() {
+          triggerAudio();
+          interactEvents.forEach(function(e) { window.removeEventListener(e, onInteract); });
+        }
+        interactEvents.forEach(function(e) { window.addEventListener(e, onInteract, { once: true, passive: true }); });
+      })();
+    </script>
   </body>
 </html>
