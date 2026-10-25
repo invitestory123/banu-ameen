@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&family=Jost:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&family=Jost:wght@300;400;500;600;700&family=Pinyon+Script&display=swap');
 
-/* Exact Custom Typography Styles matching client spec */
+/* Exact Custom Typography Styles with distinctly capitalized cursive initials */
 .couple-hero-subtitle {
   font-family: 'Jost', sans-serif !important;
   font-size: 11px !important;
@@ -13,9 +13,9 @@
 }
 
 .couple-hero-title {
-  font-family: 'Great Vibes', cursive, 'Cormorant Garamond', Georgia, serif !important;
+  font-family: 'Alex Brush', 'Pinyon Script', cursive, 'Cormorant Garamond', Georgia, serif !important;
   font-size: clamp(3.2rem, 5.5vw, 5.8rem) !important;
-  line-height: 1.2 !important;
+  line-height: 1.25 !important;
   color: var(--ink, #2d241e) !important;
   display: inline-block !important;
   text-align: center !important;
@@ -52,11 +52,11 @@
 }
 
 :root {
-  --font-hand: 'Great Vibes', cursive, 'Cormorant Garamond', serif !important;
+  --font-hand: 'Alex Brush', 'Pinyon Script', cursive, 'Cormorant Garamond', serif !important;
 }
 
 .font-hand {
-  font-family: 'Great Vibes', cursive, 'Cormorant Garamond', serif !important;
+  font-family: 'Alex Brush', 'Pinyon Script', cursive, 'Cormorant Garamond', serif !important;
 }
 
 /*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */
