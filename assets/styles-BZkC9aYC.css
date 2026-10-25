@@ -1,5 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&family=Jost:wght@300;400;500;600;700&display=swap');
 
+/* Exact Custom Typography Styles matching client spec */
+.couple-hero-subtitle {
+  font-family: 'Jost', sans-serif !important;
+  font-size: 11px !important;
+  letter-spacing: 4.5px !important;
+  text-transform: uppercase !important;
+  color: var(--muted-foreground, #7d6553) !important;
+  margin-bottom: 2rem !important;
+  font-weight: 500 !important;
+  text-align: center !important;
+}
+
+.couple-hero-title {
+  font-family: 'Great Vibes', cursive, 'Cormorant Garamond', Georgia, serif !important;
+  font-size: clamp(3.2rem, 5.5vw, 5.8rem) !important;
+  line-height: 1.2 !important;
+  color: var(--ink, #2d241e) !important;
+  display: inline-block !important;
+  text-align: center !important;
+  filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.08));
+}
+
+.couple-hero-degree {
+  font-family: 'Jost', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  letter-spacing: 2.5px !important;
+  text-transform: uppercase !important;
+  color: var(--primary, #b46b5a) !important;
+  margin-top: 0.35rem !important;
+  margin-bottom: 1rem !important;
+  text-align: center !important;
+}
+
+.couple-hero-heart {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-size: 36px !important;
+  color: var(--primary, #d9777f) !important;
+  margin: 0.75rem 0 !important;
+  display: inline-block !important;
+  line-height: 1 !important;
+  filter: drop-shadow(0 4px 14px rgba(220, 100, 120, 0.25));
+}
+
+.gramophone-play-label {
+  font-family: 'Jost', sans-serif !important;
+  font-size: 9px !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+}
+
 :root {
   --font-hand: 'Great Vibes', cursive, 'Cormorant Garamond', serif !important;
 }
