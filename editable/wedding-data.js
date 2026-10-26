@@ -13,6 +13,9 @@ window.WEDDING_DATA = {
   },
 
   wedding: {
+    day: "29",
+    month: "November",
+    year: "2026",
     dateLabel: "29 · NOVEMBER · 2026",
     dateTimeLine: "Sunday, 29 November 2026 · 6:00 pm",
     footerLine: "Ahamed Ameen & Fahmitha Banu · 29 · 11 · 2026",
@@ -41,6 +44,7 @@ window.WEDDING_DATA = {
   messages: {
     speechBubble: "Hey! You're invited ❤️",
     bouquetClick: "Can't wait to celebrate with you.",
+    tapBouquet: "TAP THE BOUQUET",
     secretNote: "You found our little secret.\nSome people you just want in every photo —\nyou're one of them.",
     secretSignoff: "— Ahamed Ameen & Fahmitha Banu",
     thankYou: "Thank you for being part of our story.",
